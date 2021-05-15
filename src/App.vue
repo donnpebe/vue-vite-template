@@ -1,6 +1,8 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Hello Vue 3.0 + Vite" />
+  <div class="flex w-full justify-center">
+    <img alt="Vue logo" src="./assets/logo.png" />
+  </div>
+  <HelloWorld msg="Hello Vue 3.0 + Vite + Typescript + TailwindCSS" />
 </template>
 
 <script lang="ts">

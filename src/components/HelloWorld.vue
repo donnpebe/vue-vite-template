@@ -1,9 +1,19 @@
 <template>
-  <h1>{{ msg }}</h1>
-  <button @click="count++">count is: {{ count }}</button>
-  <p>
-    Edit <code>components/HelloWorld.vue</code> to test hot module replacement.
-  </p>
+  <div class="flex w-full items-center justify-center mt-8">
+    <div class="flex flex-col items-center space-y-2">
+      <h1 class="text-xl">{{ msg }}</h1>
+      <button
+        class="bg-indigo-500 text-white px-3 py-1 rounded font-bold"
+        @click="count++"
+      >
+        count is: {{ count }}
+      </button>
+      <p>
+        Edit <code>components/HelloWorld.vue</code> to test hot module
+        replacement.
+      </p>
+    </div>
+  </div>
 </template>
 
 <script lang="ts">

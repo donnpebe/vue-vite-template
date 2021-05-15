@@ -4,6 +4,7 @@
 
 - Vite
 - Typescript
+- TailwindCSS
 - Prettier
 - ESLint
 - Stylelint
